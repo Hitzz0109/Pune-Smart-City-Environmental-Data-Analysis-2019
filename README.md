@@ -1,7 +1,7 @@
 # Pune-Smart-City-Environmental-Data-Analysis-2019
 Exploratory Data Analysis of Pune Smart City Environmental Sensor Dataset (2019) to identify pollution hotspots, temporal trends, and data-driven environmental insights.
 
-📌 Project Overview
+## 📌 Project Overview
 
 This project analyzes the Pune Smart City Environmental Sensor Dataset (2019) to understand air pollution patterns, environmental behavior, and location-based risk factors.
 
@@ -17,7 +17,7 @@ Ranking high-risk locations
 
 Providing actionable recommendations
 
-🏙 Problem Statement
+## 🏙 Problem Statement
 
 Pune is experiencing increasing environmental challenges due to:
 
@@ -39,7 +39,7 @@ Take targeted corrective action
 
 This project transforms raw sensor data into meaningful environmental intelligence.
 
-📊 Dataset Information
+## 📊 Dataset Information
 
 Dataset Name: Pune Smart City Environmental Sensor Dataset (2019)
 Source:
@@ -58,8 +58,8 @@ Dataset Structure
 
 Each row represents environmental readings recorded at a specific location and timestamp.
 
-🧾 Feature Classification
-📍 Location Features
+## 🧾 Feature Classification
+#### 📍 Location Features
 
 Name
 
@@ -67,7 +67,7 @@ Latitude
 
 Longitude
 
-🌫 Air Pollutants (AQI Drivers)
+#### 🌫 Air Pollutants (AQI Drivers)
 
 PM2.5
 
@@ -85,7 +85,7 @@ CO₂
 
 Ozone
 
-🌦 Environmental Parameters
+#### 🌦 Environmental Parameters
 
 Temperature
 
@@ -99,7 +99,7 @@ Light
 
 UV
 
-⏳ Time-Based Features
+#### ⏳ Time-Based Features
 
 Timestamp
 
@@ -109,7 +109,7 @@ Day
 
 Weekday
 
-🧹 Data Cleaning & Preprocessing
+## 🧹 Data Cleaning & Preprocessing
 
 The dataset was cleaned and prepared using the following steps:
 
@@ -125,11 +125,11 @@ The dataset was cleaned and prepared using the following steps:
 
 This ensured accurate and reliable analysis.
 
-🔍 Exploratory Data Analysis (EDA)
+## 🔍 Exploratory Data Analysis (EDA)
 
 The analysis answers 25 structured problem statements, including:
 
-📈 Univariate Analysis
+### 📈 Univariate Analysis
 
 Distribution of key pollutants (PM2.5, PM10, NO₂, CO)
 
@@ -137,7 +137,7 @@ Environmental factor distributions
 
 Variability analysis across pollutants
 
-🔗 Bivariate & Correlation Analysis
+### 🔗 Bivariate & Correlation Analysis
 
 Correlation heatmap of pollutants
 
@@ -147,7 +147,7 @@ Traffic-related pollution (CO, NO₂) vs Sound
 
 AQI priority parameter identification
 
-🗺 Spatial Analysis
+### 🗺 Spatial Analysis
 
 Identification of pollution hotspots
 
@@ -157,7 +157,7 @@ Stability vs fluctuation zones
 
 Location-based clustering
 
-⏱ Temporal Analysis
+### ⏱ Temporal Analysis
 
 Hourly pollution trends
 
@@ -167,7 +167,7 @@ Weekday vs Weekend comparison
 
 Peak pollution time detection
 
-🚨 Key Insights
+## 🚨 Key Insights
 
 PM2.5 and PM10 are the most critical pollutants.
 
@@ -181,7 +181,7 @@ Certain transport hubs consistently show higher pollution.
 
 Some locations show unstable pollution patterns (risk zones).
 
-🏆 Advanced Analysis
+## 🏆 Advanced Analysis
 
 Top 5 most polluted locations identified
 
@@ -191,7 +191,7 @@ Pollution-based clustering using K-Means
 
 Early warning environmental indicators identified
 
-🛠 Tools & Technologies Used
+## 🛠 Tools & Technologies Used
 
 Python
 
